@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     /*reset na pag*/
     margin: 0;
@@ -35,4 +36,43 @@ nav{
         list-style: none;
     }
     
+=======
+body{
+    /*reset na pag*/
+    margin: 0;
+    padding: 0;
+   /*Fonte usada e tamanho*/
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   
+}
+.container{
+    background-color:#F0F0F0;
+}
+
+h2{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+   
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    & a{
+        text-decoration: none;
+        color: black
+    }
+
+    & li{
+        margin-top: 10px;
+        list-style: none;
+    }
+    
+>>>>>>> 9e8b02e4ceacacbaeeaaee7f211ed67d18dd08c7
 }

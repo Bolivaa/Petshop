@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     /*reset na pag*/
     margin: 0;
@@ -76,4 +77,84 @@ footer{
     max-width: 100%;
     background-color: #F5F5DC ;
     text-align: center;
+=======
+body{
+    /*reset na pag*/
+    margin: 0;
+    padding: 0;
+   /*Fonte usada e tamanho*/
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   
+}
+
+.container{
+    background-color:#F0F0F0;
+}
+
+h2{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+   
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    & a{
+        text-decoration: none;
+        color: black
+    }
+
+    & li{
+        margin-top: 10px;
+        list-style: none;
+    }
+    
+}
+.sec1{
+    padding: 100px;
+    background-color: #ADD8E6;
+}
+
+#sec2{
+    padding: 100px;
+    background-color: #F0F0F0;
+    
+    & .cont{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    & p{
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    & img{
+        width: 350px;
+    }
+}
+
+.sec3{
+    padding: 100px;
+    background-color: #ADD8E6;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    max-width: 100%;
+    background-color: #F5F5DC ;
+    text-align: center;
+>>>>>>> 9e8b02e4ceacacbaeeaaee7f211ed67d18dd08c7
 }
